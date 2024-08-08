@@ -17,19 +17,16 @@ export const DATA = {
     "Next.js",
     "Typescript",
     "Node.js",
-    "Python",
-    "Go",
-    "Postgres",
     "Docker",
-    "Kubernetes",
-    "Java",
-    "C++",
+    "Sql",
+    "No Sql",
+    "Meta ads"
   ],
   navbar: [
     { href: "/", icon: HomeIcon, label: "Home" },
-    { href: "/blog", icon: NotebookIcon, label: "Blog" },
+    { href: "#work", icon: NotebookIcon, label: "Work" }, 
     { href: "#", icon: CodeIcon, label: "Projects" },
-    { href: "#", icon: PencilLine, label: "Notes" },
+    /* { href: "#", icon: PencilLine, label: "Notes" }, */
   ],
   contact: {
     email: "hello@example.com",
@@ -37,16 +34,14 @@ export const DATA = {
     social: {
       GitHub: {
         name: "GitHub",
-        url: "https://dub.sh/dillion-github",
+        url: "https://github.com/diegobarrionuevo1",
         icon: Icons.github,
-
         navbar: true,
       },
       LinkedIn: {
         name: "LinkedIn",
-        url: "https://dub.sh/dillion-linkedin",
+        url: "https://www.linkedin.com/in/diegobarrionuevo11/",
         icon: Icons.linkedin,
-
         navbar: true,
       },
       X: {
@@ -54,17 +49,17 @@ export const DATA = {
         url: "https://dub.sh/dillion-twitter",
         icon: Icons.x,
 
-        navbar: true,
+        navbar: false,
       },
       Youtube: {
         name: "Youtube",
         url: "https://dub.sh/dillion-youtube",
         icon: Icons.youtube,
-        navbar: true,
+        navbar: false,
       },
       email: {
         name: "Send Email",
-        url: "#",
+        url: "mailto:diegobarrionuevo11@gmail.com",
         icon: Icons.email,
 
         navbar: false,
@@ -74,26 +69,26 @@ export const DATA = {
 
   work: [
     {
-      company: "Atomic Finance",
+      company: "Experiencia Freelance",
       href: "https://atomic.finance",
       badges: [],
       location: "Remote",
-      title: "Bitcoin Protocol Engineer",
-      logoUrl: "/atomic.png",
-      start: "May 2021",
-      end: "Oct 2022",
+      title: "Web Developer",
+      logoUrl: "/freedom.jpg",
+      start: "Mar 2022",
+      end: "",
       description:
-        "Implemented the Bitcoin discreet log contract (DLC) protocol specifications as an open source Typescript SDK. Dockerized all microservices and setup production kubernetes cluster. Architected a data lake using AWS S3 and Athena for historical backtesting of bitcoin trading strategies. Built a mobile app using react native and typescript.",
+        "Implemente diversas soluciones, desde webs para comercios pequeños hasta aplicaciones para empresas de gran porte. Mis conocimientos en Ingenieria me permitieron comprender en profundidad todos los requerimientos de los clientes e implementar las mejores soluciones.",
     }
   ],
   education: [
     {
-      school: "University of Waterloo",
-      href: "https://uwaterloo.ca",
-      degree: "Bachelor's Degree of Computer Science (BCS)",
-      logoUrl: "/waterloo.png",
-      start: "2016",
-      end: "2021",
+      school: "Universidad Tecnológica Nacional",
+      href: "https://www.frc.utn.edu.ar/",
+      degree: "Ingeniería en sistemas de información",
+      logoUrl: "/UTN_logo.jpg",
+      start: "2018",
+      end: "2022",
     }
   ],
   projects: [

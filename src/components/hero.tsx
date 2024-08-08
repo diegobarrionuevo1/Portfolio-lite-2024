@@ -8,7 +8,7 @@ export const Hero = () => {
   return (
     <section className="relative mx-auto container px-2 pt-44 lg:h-screen overflow-hidden lg:pt-0 lg:w-[740px] lg:flex lg:flex-col lg:justify-center">
       <div className="text-left lg:flex lg:flex-row-reverse lg:justify-center lg:items-center md:gap-x-4">
-        <div className="Hero-image flex justify-center mb-6 w-16 lg:w-1/5 ">
+        {/* <div className="Hero-image flex justify-center mb-6 w-16 lg:w-1/5 ">
           <BlurFade delay={BLUR_FADE_DELAY}>
             <Avatar className="size-28 border">
               <AvatarImage
@@ -22,7 +22,7 @@ export const Hero = () => {
               <AvatarFallback>{DATA.initials}</AvatarFallback>
             </Avatar>
           </BlurFade>
-        </div>
+        </div> */}
         <header className="lg:w-4/5">
           <h1 className="text-3xl font-bold lg:text-5xl  text-dark-700 dark:text-dark-200">
             Hola,{" "}
@@ -31,14 +31,11 @@ export const Hero = () => {
             </span>
           </h1>
           <span className=" font-semibold inline-flex animate-background-shine bg-[linear-gradient(110deg,#64748b,45%,#0f172a,55%,#64748b)] dark:bg-[linear-gradient(110deg,#b6eaff,45%,#065074,55%,#b6eaff)] bg-[length:250%_100%] bg-clip-text text-xl text-transparent">
-            Desarrollador Fullstack
+            Desarrollador Web Fullstack
           </span>
           <h2 className="lg:text-xl mt-6 md:mt-10 text-dark-700 dark:text-dark-200 text-pretty">
             +1 año de experiencia freelance.{" "}
-            <span className="text-crusta-800 dark:text-crusta-300 ">
-              Emprendedor y Desarrollador Web
-            </span>
-            .{" "}
+            
             Me apasiona el mundo de las Startups y modelos de negocios digitales o convencionales.
           </h2>
         </header>
