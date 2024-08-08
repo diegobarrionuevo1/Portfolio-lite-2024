@@ -13,10 +13,6 @@ COPY --from=build /app/public ./public
 COPY --from=build /app/.next/standalone ./
 COPY --from=build /app/.next/static ./.next/static
 
-# Crear y usar un usuario no root
-RUN addgroup -g 1001 -S nodejs
-RUN adduser -S nextjs -u 1001
-USER nextjs
 
 # Exponer el puerto 3000
 EXPOSE 3000
